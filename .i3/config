@@ -1,0 +1,23 @@
+# Global variables
+
+set $mod Mod4
+set $lalt Mod1
+
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+include $SETUP_CONFIGURATIONS/.i3/i3-general.conf
+include $SETUP_CONFIGURATIONS/.i3/i3-colors.conf
+include $SETUP_CONFIGURATIONS/.i3/i3-exec.conf
+include $SETUP_CONFIGURATIONS/.i3/i3-windowrules.conf
+include $SETUP_CONFIGURATIONS/.i3/i3-keybinds.conf
+
+font pango:0xProto Nerd Font 10
