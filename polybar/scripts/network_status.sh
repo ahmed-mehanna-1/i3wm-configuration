@@ -27,7 +27,7 @@ calculate_speed() {
         TX_RATE="${TX_RATE_KB} KB/s"
     fi
 
-    echo "$2" "  ${RX_RATE}  ${TX_RATE}"
+    echo "$2" "  ${TX_RATE}  ${RX_RATE}"
     # echo "$ICON" " ${RX_RATE}"
     # echo "$ICON" " ${RX_RATE}" # Without upload rate
 }
